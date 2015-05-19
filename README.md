@@ -5,7 +5,7 @@ Set up required for automated browser tests for http://store.demoqa.com
 
 Test Environment:
 
-1.	Install Visual Studio 2013 (OS used was Windows 8.0).
+1.	Install Visual Studio 2012 (OS used was Windows 8.0).
 
 2.	Install Selenium web driver and “selenium-dotnet-2.45.0” 
 
