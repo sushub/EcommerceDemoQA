@@ -4,6 +4,7 @@ UI Automation tests
 Set up required for automated browser tests for http://store.demoqa.com
 
 Test Environment:
+
 1.	Install Visual Studio 2013 (OS used was Windows 8.0).
 
 2.	Install Selenium web driver and “selenium-dotnet-2.45.0” 
@@ -23,6 +24,7 @@ Only a reference to chrome driver has been added to the solution
 If the tests are to be run against any other browser, respective references to its drivers need to be added to the solution. 
 
 Issues Found:
+
 1.	State field in Order Form does not have any content. 
 
 2.	Xpaths for some of the controls are embedded as plain text paragraphs which makes it difficult to access them.
