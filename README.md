@@ -1,0 +1,2 @@
+# EcommerceDemoQA
+UI Automation tests
