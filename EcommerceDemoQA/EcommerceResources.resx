@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="CheckoutPage_calculatePrice" xml:space="preserve">
+    <value>//input[contains(@name, 'submit_zipcode')] </value>
+    <comment>Calculate Price button in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_continue" xml:space="preserve">
+    <value>//a[@class='step2']</value>
+    <comment>Continue  button in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_emptyCartContent" xml:space="preserve">
+    <value>//div[contains(@class, 'entry-content')]</value>
+    <comment>Message  when cart is empty in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_remove" xml:space="preserve">
+    <value>//form[@class='adjustform remove']</value>
+    <comment>Remove  button in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_selectCountry" xml:space="preserve">
+    <value>//select[contains(@id, 'current_country')]</value>
+    <comment>Select Country  field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_shippingPriceDisplay" xml:space="preserve">
+    <value>//span[@class='pricedisplay checkout-shipping']</value>
+    <comment>Shipping price Displayed in checkout form</comment>
+  </data>
+  <data name="CheckoutPage_totalPriceDisplay" xml:space="preserve">
+    <value>//span[@class='pricedisplay checkout-total']</value>
+    <comment>Total price displayed in  checkout form</comment>
+  </data>
+  <data name="LoginPage_password" xml:space="preserve">
+    <value>//*[@id="user_pass"]</value>
+    <comment>Password field in Login form</comment>
+  </data>
+  <data name="LoginPage_submit" xml:space="preserve">
+    <value>//input[@id='wp-submit']</value>
+    <comment>Submit Button in Login form</comment>
+  </data>
+  <data name="LoginPage_UserName" xml:space="preserve">
+    <value>//*[@id="user_login"]</value>
+    <comment>UserName field in Login form</comment>
+  </data>
+  <data name="ProductPage_addToCart" xml:space="preserve">
+    <value>//div[@class='input-button-buy']</value>
+    <comment>Add to Cart button in Product Page</comment>
+  </data>
+  <data name="ProductPage_continueShopping" xml:space="preserve">
+    <value>//a[@class='continue_shopping']</value>
+    <comment>Continue Shopping button in Product Page pop up</comment>
+  </data>
+  <data name="ProductPage_goToCheckout" xml:space="preserve">
+    <value>//a[@class='go_to_checkout']</value>
+    <comment>Go to chekout button in Product Page pop up</comment>
+  </data>
+  <data name="ProductPage_productPrice" xml:space="preserve">
+    <value>//span[contains(@class , 'currentprice')]</value>
+    <comment>Product Price displayed in Product Page</comment>
+  </data>
+  <data name="ProfilePage_accountLogout" xml:space="preserve">
+    <value>//*[@id='wp-admin-bar-logout']</value>
+    <comment>Log out option in sub menu of  Profile Page</comment>
+  </data>
+  <data name="ProfilePage_accountSubmenu" xml:space="preserve">
+    <value>//li[@id='wp-admin-bar-my-account']/a[@class='ab-item']</value>
+    <comment>Account  sub menu of  Profile Page</comment>
+  </data>
+  <data name="ProfilePage_firstName" xml:space="preserve">
+    <value>//input[@id='first_name']</value>
+    <comment>First Name field in  Profile Page</comment>
+  </data>
+  <data name="ProfilePage_lastName" xml:space="preserve">
+    <value>//input[@id='last_name']</value>
+    <comment>Last Name field in  Profile Page</comment>
+  </data>
+  <data name="ProfilePage_updateProfile" xml:space="preserve">
+    <value>//input[@id='submit']</value>
+    <comment>Update Profile button in  Profile Page</comment>
+  </data>
+  <data name="CheckoutPage_address" xml:space="preserve">
+    <value>//textarea[@id='wpsc_checkout_form_4']</value>
+    <comment>Address field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_city" xml:space="preserve">
+    <value>//input[@id='wpsc_checkout_form_5']</value>
+    <comment>City field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_country" xml:space="preserve">
+    <value>//select[@id='wpsc_checkout_form_7']</value>
+    <comment>Country field in order checkout form for calculating shipping price</comment>
+  </data>
+  <data name="CheckoutPage_emailaddress" xml:space="preserve">
+    <value>//input[@id='wpsc_checkout_form_9']</value>
+    <comment>Email Address field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_firstName" xml:space="preserve">
+    <value>//input[@id='wpsc_checkout_form_2']</value>
+    <comment>FirstName field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_lastName" xml:space="preserve">
+    <value>//input[@id='wpsc_checkout_form_3']</value>
+    <comment>LastName field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_orderPurchase" xml:space="preserve">
+    <value>//input[contains(@class, 'make_purchase wpsc_buy_button')]</value>
+    <comment>Calculate Price button in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_phone" xml:space="preserve">
+    <value>//input[@id='wpsc_checkout_form_18']</value>
+    <comment>Phone field in order checkout form</comment>
+  </data>
+  <data name="CheckoutPage_shippingSameasBilling" xml:space="preserve">
+    <value>//input[@id='shippingSameBilling']</value>
+    <comment>Shipping same as Billing address in  checkout form</comment>
+  </data>
+  <data name="TransactionResultsPage_totalPrice" xml:space="preserve">
+    <value>//div[contains(@class,'transaction-results')]/p[3]</value>
+    <comment>Total price Displayed in Final Results page</comment>
+  </data>
+  <data name="TransactionResultsPage_transactionHeader" xml:space="preserve">
+    <value>//h1[contains(@class, 'entry-title')]</value>
+    <comment>Transaction Results Text  Displayed in Final Results page</comment>
+  </data>
+</root>
